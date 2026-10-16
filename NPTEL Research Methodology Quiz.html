@@ -757,6 +757,385 @@
         }
 
         /* EXAM MODE LOCKDOWN STYLES */
+        /* PALETTE TOGGLE BUTTON (VISIBLE ON MOBILE & TABLET) */
+        .palette-toggle-btn {
+            display: none;
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            z-index: 1050;
+            background: #0077c5;
+            color: #ffffff;
+            border: 1.5px solid #005a9e;
+            border-right: none;
+            border-radius: 20px 0 0 20px;
+            padding: 10px 8px 10px 10px;
+            cursor: pointer;
+            box-shadow: -2px 4px 12px rgba(0, 0, 0, 0.25);
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            font-size: 13px;
+            font-weight: 700;
+            transition: all 0.25s ease;
+            user-select: none;
+        }
+
+        .palette-toggle-btn:hover, .palette-toggle-btn:active {
+            background: #005a9e;
+        }
+
+        .palette-toggle-btn .toggle-icon {
+            display: inline-block;
+            transition: transform 0.3s ease;
+            font-size: 14px;
+            line-height: 1;
+        }
+
+        .palette-toggle-btn.open .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .palette-backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(15, 23, 42, 0.5);
+            backdrop-filter: blur(2px);
+            z-index: 1040;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .palette-backdrop.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .palette-mobile-close {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: #334155;
+            cursor: pointer;
+            padding: 2px 6px;
+            line-height: 1;
+        }
+
+        /* RESPONSIVE BREAKPOINTS (Mobile & Tablet) */
+        @media (max-width: 900px) {
+            body {
+                height: 100vh;
+                height: 100dvh;
+            }
+
+            /* TOP BANNER RESPONSIVE */
+            .top-banner {
+                height: auto;
+                min-height: 44px;
+                padding: 6px 10px;
+                flex-wrap: wrap;
+                gap: 6px 10px;
+            }
+
+            .brand-left {
+                gap: 8px;
+            }
+
+            .exam-title {
+                font-size: 12.5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 220px;
+            }
+
+            .banner-links {
+                gap: 8px;
+                font-size: 11px;
+                margin-left: auto;
+            }
+
+            .banner-link.hide-mobile {
+                display: none;
+            }
+
+            /* SUB-HEADER RESPONSIVE */
+            .sub-header-strip {
+                height: auto;
+                min-height: 44px;
+                padding: 6px 10px;
+                gap: 6px;
+                flex-wrap: wrap;
+                width: 100%;
+                max-width: 100vw;
+                overflow: hidden;
+            }
+
+            .filter-controls {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 6px;
+                min-width: 0;
+            }
+
+            .filter-controls-row1 {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                width: 100%;
+                min-width: 0;
+            }
+
+            .filter-controls-row2 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 8px;
+                width: 100%;
+            }
+
+            .custom-select {
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 0 !important;
+                font-size: 12px;
+                padding: 6px 8px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            .custom-select option, .custom-select optgroup {
+                max-width: 90vw;
+                font-size: 12px;
+            }
+
+            .mode-toggle-group {
+                padding: 1px;
+            }
+
+            .mode-btn {
+                padding: 4px 10px;
+                font-size: 11.5px;
+            }
+
+            .timer-badge {
+                font-size: 12px;
+                padding: 3px 8px;
+            }
+
+            /* MAIN LAYOUT: QUESTION VIEWPORT TAKES FULL WIDTH */
+            .main-container {
+                position: relative;
+                overflow: hidden;
+            }
+
+            .question-viewport {
+                width: 100%;
+                border-right: none;
+            }
+
+            .question-header-bar {
+                padding: 8px 12px;
+                gap: 8px;
+                flex-wrap: wrap;
+            }
+
+            .q-meta-left {
+                gap: 8px;
+                font-size: 12.5px;
+            }
+
+            .q-meta-right {
+                gap: 8px;
+                font-size: 11px;
+            }
+
+            .question-body-container {
+                padding: 14px 14px 18px 14px;
+            }
+
+            .question-title-text {
+                font-size: 14.5px;
+                margin-bottom: 14px;
+                line-height: 1.45;
+            }
+
+            .option-item {
+                padding: 10px 12px;
+                gap: 10px;
+                font-size: 13.5px;
+            }
+
+            .option-item input[type="radio"],
+            .option-item input[type="checkbox"] {
+                width: 18px;
+                height: 18px;
+                min-width: 18px;
+                margin-top: 2px;
+            }
+
+            .repo-watermark-bar {
+                padding: 5px 10px;
+                font-size: 11px;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+
+            .repo-watermark-bar a {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 250px;
+            }
+
+            /* BOTTOM ACTION BAR RESPONSIVE */
+            .bottom-action-bar {
+                height: auto;
+                padding: 8px 10px;
+                gap: 6px;
+                flex-wrap: wrap;
+                background: #f8fafc;
+                box-shadow: 0 -2px 8px rgba(0,0,0,0.06);
+            }
+
+            .action-left-btns, .action-right-btns {
+                gap: 6px;
+                flex-wrap: wrap;
+            }
+
+            .action-left-btns {
+                flex: 1 1 auto;
+            }
+
+            .action-right-btns {
+                margin-left: auto;
+            }
+
+            .btn-tcs {
+                padding: 6px 11px;
+                font-size: 12px;
+                min-height: 36px;
+            }
+
+            /* RIGHT PALETTE AS SLIDEOUT DRAWER (COLLAPSED BY DEFAULT) */
+            .palette-toggle-btn {
+                display: flex;
+            }
+
+            .palette-backdrop {
+                display: block;
+            }
+
+            .palette-mobile-close {
+                display: inline-block;
+            }
+
+            .palette-sidebar {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                width: 310px;
+                max-width: 85vw;
+                height: 100vh;
+                height: 100dvh;
+                z-index: 1045;
+                background: #f8fafc;
+                box-shadow: -4px 0 20px rgba(0, 0, 0, 0.25);
+                transform: translateX(100%);
+                transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+                visibility: hidden;
+            }
+
+            .palette-sidebar.expanded {
+                transform: translateX(0);
+                visibility: visible;
+            }
+
+            .candidate-card {
+                padding: 10px 14px;
+            }
+
+            .candidate-avatar {
+                width: 38px;
+                height: 38px;
+                font-size: 14px;
+            }
+
+            .legend-grid {
+                padding: 8px 12px;
+                gap: 5px 8px;
+                font-size: 10.5px;
+            }
+
+            .palette-grid {
+                grid-template-columns: repeat(5, 1fr);
+                gap: 7px;
+            }
+
+            .palette-btn {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .exam-title {
+                max-width: 160px;
+            }
+
+            .bottom-action-bar {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 6px;
+                padding: 6px 8px;
+            }
+
+            .action-left-btns, .action-right-btns {
+                display: contents;
+            }
+
+            .bottom-action-bar .btn-tcs {
+                width: 100%;
+                padding: 8px 4px;
+                font-size: 11.5px;
+                text-align: center;
+                justify-content: center;
+            }
+
+            /* Order buttons cleanly in mobile grid */
+            .btn-mark {
+                grid-column: 1 / -1;
+                order: 1;
+            }
+
+            #checkAnswerBtn {
+                order: 2;
+            }
+
+            .action-left-btns .btn-default {
+                order: 3;
+            }
+
+            .action-right-btns .btn-default {
+                order: 4;
+            }
+
+            .btn-primary {
+                order: 5;
+            }
+        }
+
+        /* EXAM MODE LOCKDOWN STYLES */
         body.exam-lockdown {
             user-select: none !important;
             -webkit-user-select: none !important;
@@ -804,33 +1183,37 @@
             <span class="exam-title">Research Methodology Master Certification Assessment (51 Modules • 510 Questions)</span>
         </div>
         <div class="banner-links">
-            <span class="banner-link" onclick="toggleInstructions()">ℹ Question Paper</span>
-            <span class="banner-link" onclick="toggleInstructions()">ℹ View Instructions</span>
-            <span class="banner-link" onclick="resetActiveModule()">🔄 Reset Module</span>
-            <button class="btn-tcs btn-submit" style="padding: 4px 14px; font-size: 12px; margin-left: 8px; font-weight: 700; box-shadow: 0 1px 3px rgba(0,0,0,0.3);" onclick="submitAssessment()">Submit Exam</button>
+            <span class="banner-link hide-mobile" onclick="toggleInstructions()">ℹ Question Paper</span>
+            <span class="banner-link hide-mobile" onclick="toggleInstructions()">ℹ Instructions</span>
+            <span class="banner-link" onclick="resetActiveModule()">🔄 Reset</span>
+            <button class="btn-tcs btn-submit" style="padding: 4px 12px; font-size: 11.5px; font-weight: 700; box-shadow: 0 1px 3px rgba(0,0,0,0.3);" onclick="submitAssessment()">Submit</button>
         </div>
     </header>
 
     <!-- SUB CONTROLS & FILTER STRIP -->
     <div class="sub-header-strip">
         <div class="filter-controls">
-            <label style="font-weight: 600; font-size: 12.5px; color: #475569;">Select Module:</label>
-            <select id="moduleSelect" class="custom-select" onchange="onModuleChange(this.value)">
-                <option value="all">All 51 Modules (510 Questions Comprehensive Exam)</option>
-            </select>
-
-            <div class="mode-toggle-group">
-                <button id="practiceModeBtn" class="mode-btn active" onclick="setMode('practice')">Practice Mode</button>
-                <button id="examModeBtn" class="mode-btn" onclick="setMode('exam')">Exam Mode</button>
+            <div class="filter-controls-row1">
+                <label style="font-weight: 600; font-size: 12px; color: #475569; white-space: nowrap;">Module:</label>
+                <select id="moduleSelect" class="custom-select" onchange="onModuleChange(this.value)">
+                    <option value="all">All 51 Modules (510 Questions Comprehensive Exam)</option>
+                </select>
             </div>
-        </div>
 
-        <div style="display: flex; align-items: center; gap: 12px;">
-            <div id="timerContainer" class="timer-badge" style="display: none;">
-                ⏱ <span id="timerDisplay">180:00</span>
-            </div>
-            <div style="font-size: 12px; color: #64748b; font-weight: 600;">
-                Language: <b>English</b>
+            <div class="filter-controls-row2">
+                <div class="mode-toggle-group">
+                    <button id="practiceModeBtn" class="mode-btn active" onclick="setMode('practice')">Practice Mode</button>
+                    <button id="examModeBtn" class="mode-btn" onclick="setMode('exam')">Exam Mode</button>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div id="timerContainer" class="timer-badge" style="display: none;">
+                        ⏱ <span id="timerDisplay">180:00</span>
+                    </div>
+                    <div style="font-size: 11.5px; color: #64748b; font-weight: 600;">
+                        <b>English</b>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -932,7 +1315,10 @@
             <!-- Section title -->
             <div class="palette-section-header">
                 <span id="paletteTitle">Questions Palette</span>
-                <span id="paletteFilterCount" style="color: #64748b; font-size: 11px;">10 Questions</span>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <span id="paletteFilterCount" style="color: #64748b; font-size: 11px;">10 Questions</span>
+                    <button class="palette-mobile-close" onclick="togglePaletteDrawer(false)" aria-label="Close Palette">✕</button>
+                </div>
             </div>
 
             <!-- Question Numbers Grid -->
@@ -941,6 +1327,15 @@
             </div>
 
         </aside>
+
+        <!-- FLOATING MOBILE TOGGLE ARROW BUTTON -->
+        <button id="paletteToggleBtn" class="palette-toggle-btn" onclick="togglePaletteDrawer()" aria-label="Toggle Question Palette" title="Questions Palette">
+            <span class="toggle-icon">◀</span>
+            <span style="writing-mode: vertical-rl; transform: rotate(180deg); font-size: 11px; letter-spacing: 0.5px; margin-top: 2px;">PALETTE</span>
+        </button>
+
+        <!-- BACKDROP OVERLAY FOR MOBILE PALETTE -->
+        <div id="paletteBackdrop" class="palette-backdrop" onclick="togglePaletteDrawer(false)"></div>
 
     </main>
 
@@ -1452,6 +1847,33 @@
             }
         }
 
+        function togglePaletteDrawer(forceState) {
+            const sidebar = document.querySelector('.palette-sidebar');
+            const toggleBtn = document.getElementById('paletteToggleBtn');
+            const backdrop = document.getElementById('paletteBackdrop');
+
+            const isCurrentlyExpanded = sidebar.classList.contains('expanded');
+            const shouldExpand = (forceState !== undefined) ? forceState : !isCurrentlyExpanded;
+
+            if (shouldExpand) {
+                sidebar.classList.add('expanded');
+                if (toggleBtn) {
+                    toggleBtn.classList.add('open');
+                    const icon = toggleBtn.querySelector('.toggle-icon');
+                    if (icon) icon.textContent = '▶';
+                }
+                if (backdrop) backdrop.classList.add('active');
+            } else {
+                sidebar.classList.remove('expanded');
+                if (toggleBtn) {
+                    toggleBtn.classList.remove('open');
+                    const icon = toggleBtn.querySelector('.toggle-icon');
+                    if (icon) icon.textContent = '◀';
+                }
+                if (backdrop) backdrop.classList.remove('active');
+            }
+        }
+
         function updatePalette() {
             const grid = document.getElementById('paletteGrid');
             grid.innerHTML = '';
@@ -1464,7 +1886,12 @@
                     btn.classList.add('active-q');
                 }
                 btn.textContent = idx + 1;
-                btn.onclick = () => renderQuestion(idx);
+                btn.onclick = () => {
+                    renderQuestion(idx);
+                    if (window.innerWidth <= 900) {
+                        togglePaletteDrawer(false);
+                    }
+                };
                 grid.appendChild(btn);
             });
         }
