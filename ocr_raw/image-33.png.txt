@@ -1,0 +1,122 @@
+Week 11 : Assignment
+Lue date Cn
+2026-10-07,23.59 IST
+The due date for aubmitting thiz azsignment has pazzed
+0er 0Urtecord:
+vounave nor ;ubmined
+thia a3zignment
+The approach neceazarily requires retraining the entire
+Bnquade
+Moce
+Acoiione
+context can make the medel
+epons
+Mcme
+Tocuieg
+You didnt attempt thig question well in tine
+Score: ^
+Accepted answer i9
+The approach is congigtent
+Retrieval-Augmented Generation (RAG)- The retrieved information provices additionab
+cmterto
+the model
+Additional context can make th2 models reeponge more focuged_
+The lecture usea the example of the 2011 ICC World Cup -
+explain the effect of retrieva
+aumeniec
+deneraticn
+Which
+of the following correctly captures the idea?
+Point
+Additional retrieved information can contextualize an otherwriae ambiguous query:
+The original question can be effectively zhifted toward
+Tore
+appropriate
+conete
+edreseniation
+RAG wrorks Frimarily
+increasing tha numbe
+Tamaers
+the LLM
+richer context can increase the probability
+pfcducing
+the intended
+You dunt attempt InIg question welin tiMe
+Score; L
+ccepted angwveri8
+Additional retrieved infomation can contextualize an othenvise ambiguous query- The priginal question can be effectively shifted toward
+more appropriate contextual representation , A richer context can increage the probability =
+producing the intended
+Which of the following statements about hallucination
+cotrect
+according
+the lecture?
+Point
+model ma
+produce
+plauzible
+Enei
+en when the generated information doeg not maich the ground tnuth.
+Hallucination can occur when the modelhas inaufficienily represented information
+contex
+Hallucinaticn can be reduced
+hroujn techniques
+providing
+arge
+context but
+cannoi necessam
+eliminated
+completely:
+Hallucinaticn
+Means
+that the modelhas deliberately decidedto provide
+Inicrmatior
+You didntt attempt thig question We
+in TIm >
+Score: m
+Accepted
+angwer
+A model may produce
+'plausible
+anai2r even henthe
+'generated infcrmation does
+noimatch the
+tnmth
+allucination can orcurwhenthamode
+has insufficiently represented information
+Contert
+Hallucination can
+reduce -
+through techniques guch
+Froviding
+content but itcannot
+nerpeaart be eliminated Comtletel
+language model produces
+misleading recommendation because
+Talge
+deliberately mialeading article wa preaent
+information from which the model
+eamnec
+Which atatements are appropriate?
+Point
+The problem
+necezsari
+exampie
+ofhallucination
+Alsystem:
+potentially propagate
+mizinformaticn Frezent
+their infcrmation {ourcez_
+response may be misleading even when #t ia nct simply
+invented factby the model:
+Independent verification of important Al-gererated information remaing neceazary:
+You dunt attempt InIg question welin tiMe
+Score; L
+4ccepted
+angwveri8
+Al syatemg can potentially propagate misinfommation present in their information gcuiceg
+responge Maj be mieleading even whhenit ie not eimply -
+invented factby the mcdel
+lncecendent venficaton or important Al-qenerated infommaticn remains necesgar_
+groud
+ange1

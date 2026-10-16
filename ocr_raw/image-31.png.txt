@@ -1,0 +1,134 @@
+Week 11 : Assignment
+Lue date Cn
+2026-10-07,23.59 IST
+The cue Cate
+aubmmtinotnia
+azsionment haz pazzed
+Aa Fer ourrecorda
+vounave nor ;ubmined
+thia a3zignment
+This asaignment
+baaed
+Week
+le cture content
+from the course
+Intoduction
+Generative
+Ecnre Uaes
+the example of Arthur Samuel checkera program
+iustrate
+early form of learning
+mechines
+Which
+the following atatementa
+cotreci 
+Point
+The machine
+explicitly programmed writh every possible checkerz strategy:
+The machine
+learned through experience
+repeatedly playing the game
+The example
+aaociated wiith an early inatance cf reinforcement
+earning
+The example
+demonstrates that Al-based learning
+Phenomenon tnat
+oniywith
+generative Al
+You didnt attempt thig question wellin time
+Score: m
+Accepted answer is
+The machine
+PETDE 7
+through experience by repeatedly playing the game
+The example
+agsociated with _
+early
+nstance
+Teinfotcement
+ebtnino
+Which of the following atatement: correctly reflect the lecture & diacussion
+clasaic3
+and generative Al?
+Point
+generatve
+the only appropriate
+approach for zolving modern research problema
+Clarsica
+methoda can still provide
+atedivescldiona
+Tor dome
+in-apecific
+Drodlems
+Rezearcrere
+choulg
+ect an
+approach according
+tha problem rather thar
+asauming that generative
+must
+Le uaed
+Clazsical
+Decame
+Ttrelevant
+after the emergence
+LLM:.
+You dunt attempt InIg question welin tiMe
+Score; L
+AcceDied anstter 9
+Clasgical Almethoj3 can s1
+Dtovide enective sdiutionstOr comain-apecitic probleme
+Researcherg ghould gelect an
+approach according to th2 Ficblem ratherthan aeguming that generative Al must always E2 uged.
+Consider
+LLM that predicts the next token from the context
+nfovided
+Which of the following
+statements Are
+comect?
+Point
+The probability of =
+tcken car
+depend -
+the preceding context
+token with the highest probability must alwaye
+Ee generated_
+Differert contextz can reault in different probability distributions for the rext token:
+The mode
+repeatedly predici tokens
+conatruct
+rezponge
+Youduntattemntthig questionwellin tim?
+Score: ^
+Accepted answeris   The probability of a token can
+on the preceding context
+Different contexts can result in different probability distributiona for thenext token , The model canrepeatedly predict tokena
+consincia onderresdinse
+Which of the following correctly distinguish token size
+contet
+size,
+and paramete
+count
+LLM?
+Point
+Token size
+related-
+thevocabulary
+Votoe
+aubwiordz that the mode
+can jenerale
+Cortext zize reiera
+the amouni
+Frevicua
+token information consideredEy the model
+Parameter count refers
+the number of tokens that can be stored in the prompi
+Parameter count ia related to how the learred probability distributiona are repreaentec
+the model.
+You didnt attempt thig question well in tine
+Score: ^
+bejen 
+akaja
+Jor je"
+depend

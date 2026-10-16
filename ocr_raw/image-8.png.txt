@@ -1,0 +1,72 @@
+Week 3
+Assignment
+Lu2 date Cn
+2026-0,8-14,23.59 IST
+The due date for aubmitting thiz azsignment has pazzed
+Fer our recorda vounave not
+submitted thia azzignment
+Which of the following can be treated
+deterministic
+signals?
+Point
+Meazurement?
+atmospheric temperatura
+Sine Ka
+corrupted by
+rectangula
+FuISE
+Eltimates
+of signal
+from meazurementa
+Kcnz
+ofthe above
+You didnt attempt this
+questionwell
+Scone:
+Accepted answer is
+A sine wave Cotrupted
+rectangular pulee
+Identify the incorrect atatement(a
+among the followring
+non-linear models
+Point
+Linearizaton invoivea Mete
+discarding
+of the non-linear terma
+model
+The standard Taylora series-baaed lirearizec
+Moce
+changez with the nominal Foint of linearization:
+nor-linas
+Moce
+Car7e
+"er yield
+zero-valued cutput
+nomzene
+Estimates
+inea
+modelz have
+errors than thoae
+ncn-inesrmodela
+ou dunt attempt InIg question welin tim
+Score; W
+AcceDied anstter 5
+Linearization involves Mere digcarding 01 te ncn-inearterm3 inamojel
+Anon-linear model can never yield a zero-valued outputto a non-zero input
+Estimates
+linear Moce 5 nave 3maller error3 thanthose Of non-Iinear models
+Which of the
+following tranaform: are used
+detect periodic (oscillatory) components
+signal?
+Point
+Hilbert tranzform
+2-trangton
+Fourier transform
+All ef the above
+You didnt attempt this
+questionwellin time
+Gcore: n
+Accepted answier i9
+Fourier trangfom
+Input

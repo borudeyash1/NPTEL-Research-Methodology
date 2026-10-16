@@ -1,0 +1,110 @@
+Week 11 : Assignment
+Due date on 2026-10-07,23.59
+The due date for aubmitting thiz azsignment has pazzed. Aa Fer our recorda youhave not submitted thia a3zignment
+Parameter count ia related
+how the learred probability distributiona are repreaented
+the mcdel.
+You didnt attempt thig question well in tine
+Score: ^
+Accepted answer i8
+Token siz2 i9 related t0 tha vocabulan} of words r subword3 that the modelcan generate
+Context size referg to the amount of previoug token infommation cong dered by the mzdel:
+Parameter count is related to howtha
+leamed Ficbability distributiong are refregented inthe model:
+Which statements correctly describe the role
+vector
+epreseniarione
+LLM framework explained
+the lecture?
+Point
+A very large probability matrix can be represented through
+comparatvel
+amaller-Jimensiona
+Vecioradace
+Differert contextz may be projected
+neardy
+ocatons
+the vecior space
+Such comFrezsion can contribute
+variability and errors
+becauae information from different contexts
+may influenc? generation.
+dosaiblecdexia retinedas
+Comm
+letely
+ndent poirt with no
+You dunt attempt InIg question W2
+In tiM ?
+Score; L
+Accepted
+angwer
+Avery large probability matrix can
+repregented through
+comparatively emaller-dimensional vector space
+Direrent cintena mav
+projected to nearby Iocations in tha vector space
+Such compression can contribute
+variability and errors becausg information from different contexts may inflvence
+generation;
+Which of the following atatement:
+conaiatent writh the
+ecture ? explanation of alignment?
+Point
+Aligrment can modify model behavicur z0 that generated probabilities Letter correspond
+deaired outcomea
+Aligrment may
+direcied toward: objectivez auch
+factuality; bias reduction
+codtex
+Aligrment guarantees thai =
+outputs produced by
+LLM are
+Actua
+CoTTec
+Reintorcement
+learning from human preferencea
+agaociated with the alignment Frocess
+Yau didnt attempt thig questionwell in time
+Score; L
+Accepted answer i8
+Alignment can modify model behaviour g0 that generated Ficbabilities better Corre spond t0 desired outcomes
+Alignment Maj be directed towards objectives Euch a8 factuality Eiag reduction or loca
+context
+Reinforcement Iearning from human preferences
+agsociated with the alignment proces
+researche
+a8ks
+language mode
+queation whoge meaning
+ambiguous_
+Relevant intormaticn
+Tetrieved
+Intetne
+epository
+and added
+original
+Juestio
+before generating the answer Which statementa correctly
+deacribe this approach?
+Point
+The approach
+consistent vrith Retrieval-Augmented
+Generation (RAC
+The retrieved information providea additioral context
+the moce
+The approach neceazarily requires
+etraining the
+entire
+Bnquade
+Moce
+Acoiione
+context can make the mcdel:
+epons
+Mcme
+Tocuieg
+Youduntattemntthig questionwellin tim?
+Score: ^
+Accepted answeris  The approach is consistent with Retrieval-Augmented Generation (RAG)  The retrieved information provides additicnal context to the model , Additional context can make the models response more focused_
+Evn
+Undepe
+elap

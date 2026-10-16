@@ -1,0 +1,257 @@
+[
+  [
+    1,
+    "Foundations of Research & Research Degrees",
+    1
+  ],
+  [
+    2,
+    "Formulating Research Questions & Problem Definition",
+    1
+  ],
+  [
+    3,
+    "Developing Hypotheses & Research Objectives",
+    1
+  ],
+  [
+    4,
+    "Theoretical Frameworks & Applied vs Basic Research",
+    1
+  ],
+  [
+    5,
+    "University Ecosystem, Innovation & IITM Research Park",
+    1
+  ],
+  [
+    6,
+    "Overview of Literature Survey & Bibliometrics",
+    2
+  ],
+  [
+    7,
+    "Databases, Search Strategies & Web of Science",
+    2
+  ],
+  [
+    8,
+    "Scientific Literature Classification & Scopus",
+    2
+  ],
+  [
+    9,
+    "Citation Management & Introduction to LaTeX",
+    2
+  ],
+  [
+    10,
+    "Advanced Bibliometrics, h-index & Journal Metrics",
+    2
+  ],
+  [
+    11,
+    "Word Processing with Bibliographic Sources",
+    3
+  ],
+  [
+    12,
+    "Using EndNote & Citation Plugins (Part 1)",
+    3
+  ],
+  [
+    13,
+    "Using EndNote & Citation Customization (Part 2)",
+    3
+  ],
+  [
+    14,
+    "Peer Review Process & Scientific Communication",
+    4
+  ],
+  [
+    15,
+    "Experimental Skills, Measurement & Error Mitigation",
+    4
+  ],
+  [
+    16,
+    "LaTeX Typesetting & Overleaf Collaboration",
+    4
+  ],
+  [
+    17,
+    "Foundations of Data Analysis & Statistical Inferencing",
+    5
+  ],
+  [
+    18,
+    "Statistical Computing in R & RStudio Environment",
+    5
+  ],
+  [
+    19,
+    "First-Principles vs Empirical Modelling (Lecture 19A)",
+    5
+  ],
+  [
+    20,
+    "Hands-on Modelling & Overfitting Diagnostics in R",
+    5
+  ],
+  [
+    21,
+    "Safety in the Laboratory & Hazard Protocols",
+    6
+  ],
+  [
+    22,
+    "Technical Presentations & Scientific Slides",
+    6
+  ],
+  [
+    23,
+    "Technical Writing: Structure of Journal Articles",
+    6
+  ],
+  [
+    24,
+    "Creativity in Research: Lateral Thinking (Part 1)",
+    6
+  ],
+  [
+    25,
+    "Creativity in Research: TRIZ & Problem Solving (Part 2)",
+    6
+  ],
+  [
+    26,
+    "Developing Creative Engineering Solutions",
+    7
+  ],
+  [
+    27,
+    "Research Ethics, Academic Integrity & Fabrication",
+    7
+  ],
+  [
+    28,
+    "Plagiarism, Paraphrasing & Authorship Ethics",
+    7
+  ],
+  [
+    29,
+    "Intellectual Property: Patents, Copyrights & Designs",
+    7
+  ],
+  [
+    30,
+    "Prior Art Search, Patent Claims & Filing Procedures",
+    7
+  ],
+  [
+    31,
+    "Response Surface Methodology & Central Composite Design",
+    8
+  ],
+  [
+    32,
+    "Hypothesis Testing, F-Distribution & One-Factor ANOVA",
+    8
+  ],
+  [
+    33,
+    "Two-Factor Experiments, Interactions & Regression Models",
+    8
+  ],
+  [
+    34,
+    "Sampling Distributions, CLT, CI & t/Chi-Square Tests",
+    8
+  ],
+  [
+    35,
+    "Research Methodologies in Applied Mechanics",
+    9
+  ],
+  [
+    36,
+    "Research Methodologies in Chemical Engineering",
+    9
+  ],
+  [
+    37,
+    "Research Methodologies in Civil Engineering",
+    9
+  ],
+  [
+    38,
+    "Research Methodologies in Computer Science & Engineering",
+    9
+  ],
+  [
+    39,
+    "Research Methodologies in Engineering Design",
+    10
+  ],
+  [
+    40,
+    "Research Methodologies in Humanities & Social Sciences",
+    10
+  ],
+  [
+    41,
+    "Research in Mechanical Engineering & Thermal-Fluids",
+    10
+  ],
+  [
+    42,
+    "Research in Metallurgical & Materials Engineering",
+    10
+  ],
+  [
+    43,
+    "Research in Ocean Engineering & Offshore Systems",
+    11
+  ],
+  [
+    44,
+    "Research in Management Studies & Operations",
+    11
+  ],
+  [
+    45,
+    "Research in Aerospace Engineering & Aerodynamics",
+    11
+  ],
+  [
+    46,
+    "Research in Biotechnology & Bioprocess Engineering",
+    11
+  ],
+  [
+    47,
+    "Research in Chemical Sciences & Synthetic Chemistry",
+    12
+  ],
+  [
+    48,
+    "Research in Electrical & Electronics Engineering",
+    12
+  ],
+  [
+    49,
+    "Research in Mathematical Sciences & Applied Maths",
+    12
+  ],
+  [
+    50,
+    "Research in Physical Sciences & Experimental Physics",
+    12
+  ],
+  [
+    51,
+    "Personal Transformation, Philosophy of PhD & Career Trajectories",
+    12
+  ]
+]
